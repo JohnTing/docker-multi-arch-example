@@ -9,11 +9,11 @@ manifests:
 #      architecture: arm
 #      os: linux
 #      variant: v5
-#  - image: jotjohnting/multi-arch-example:arm32v7
-#    platform:
-#      architecture: arm
-#      os: linux
-#      variant: v7
+  - image: jotjohnting/multi-arch-example:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
   - image: jotjohnting/multi-arch-example:arm64v8
     platform:
       architecture: arm64
