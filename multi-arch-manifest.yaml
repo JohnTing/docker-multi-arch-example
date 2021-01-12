@@ -1,4 +1,4 @@
-image: jotjohnting/multi-arch-example:latest
+image: jotjohnting/docker-multi-arch-example:latest
 manifests:
   - image: jotjohnting/docker-multi-arch-example:amd64
     platform:
